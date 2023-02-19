@@ -10,7 +10,7 @@
 </head>
 <body>
     {{-- header --}}
-    @yield('content')
+    @yield('content');
     {{-- footer --}}
 </body>
 </html>
