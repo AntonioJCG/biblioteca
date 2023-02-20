@@ -17,7 +17,18 @@
 }
 
 .formulario {
-    background-color: blueviolet;
-    width: 500px;
-    height: 500px;
+    background-color: rgb(226, 224, 228);
+    opacity: 0.95;
+    width: auto;
+    height: fit-content;
+}
+
+.imgLogo {
+    width: auto;
+    height: auto;
+}
+
+.imgLogo > img {
+    width: 300px;
+    height: auto;
 }

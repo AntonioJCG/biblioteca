@@ -12,9 +12,26 @@
 </head>
 
 <body>
-    <div class="contenedor container-fluid">
-        <div class="formulario container-sm">
-            
+    <div class="contenedor container-fluid pt-5 d-flex justify-content-center">
+        <div class="formulario d-flex flex-column justify-content-center rounded p-4">
+            <div class="imgLogo mb-3">
+                <img src="../public/imgs/logo.png" alt="">
+            </div>
+            <form>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="usuario">
+                  </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+            </form>
         </div>
     </div>
 </body>
