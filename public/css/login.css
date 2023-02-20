@@ -4,20 +4,20 @@
     padding: 0px;
 }
 
-body {
-    background-color: aqua;
-}
-
-/* .container {
+.contenedor {
     background-color: aqua;
     height: 100vh;
     width: 100%;
-    background-image: url(/public/imgs/fondo.jpg);
+    background-image: url(../imgs/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    text-align: center;
-} */
+}
 
+.formulario {
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+}
