@@ -14,19 +14,13 @@
     min-width: 350px;
 }
 
-.formulario {
-    background-color: rgb(226, 224, 228);
-    opacity: 0.95;
-    width: auto;
-    height: fit-content;
+.media > img {
+    width: 30px;
+    height: auto;
+    margin: 0 20px;
 }
 
-.imgLogo {
-    width: auto;
-    height: auto;
-}
-
-.imgLogo > img {
-    width: 300px;
-    height: auto;
+.principal {
+    margin-top: 30px;
+    margin-bottom: 220px;
 }

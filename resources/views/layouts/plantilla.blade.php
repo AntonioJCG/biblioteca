@@ -5,29 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+  <div class="contenedor d-flex flex-column align-items-center min-vh-100 min-width">
+    <nav class="container-fluid navbar navbar-expand-lg bg-light">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand" href="#">ILoveBooks</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#">Biblioteca</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link active" href="#">Perfil</a>
               </li>
             </ul>
           </div>
@@ -35,38 +31,18 @@
     </nav>
 
     @yield('content')
-    {{-- footer --}}
 
-    {{-- <header>
-      <div class="logo">
-          <img src="">
+    <footer class="container-fluid text-center bg-light p-0 m-0 position-absolute bottom-0 start-50 translate-middle-x">
+      <div class="media container-fluid d-flex justify-content-center py-5">
+        <img src="../public/imgs/facebook.svg" alt="">
+        <img src="../public/imgs/instagram.svg" alt="">
+        <img src="../public/imgs/twitter.svg" alt="">
       </div>
-      <div class="headerMenu ">
-          <div><button></button></div>
-          <div><button></button></div>
-          <div><button></button></div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright
       </div>
-  </header>
-
-  @yield('content')
-
-  <footer>
-      <div class="f1">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-      </div>
-      <div class="f2">
-          <div></div>
-          <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-          </div>
-      </div>
-  </footer> --}}
+    </footer>
+  </div>
 </body>
 </html>

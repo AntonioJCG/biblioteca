@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="contenedor container-fluid pt-5 d-flex justify-content-center">
+    <div class="contenedor container-fluid pt-5 d-flex justify-content-center min-vh-100">
         <div class="formulario d-flex flex-column justify-content-center rounded p-4">
             <div class="imgLogo mb-3">
                 <img src="../public/imgs/logo.png" alt="">
@@ -27,7 +27,7 @@
                   <input type="password" class="form-control" id="password">
                 </div>
                 <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                <a href="registro"><button type="text" class="btn btn-success">Registrarse</button></a>
+                <a href=""><button type="text" class="btn btn-success">Registrarse</button></a>
             </form>
         </div>
     </div>
