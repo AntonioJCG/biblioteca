@@ -8,10 +8,10 @@
         <h1>Buscador de libros</h1>
     </div>
     <div class="container-fluid mb-5">
-        <form action="" method="post">
+        <form action="" method="get">
             <div class="input-group d-flex justify-content-center">
                 <div class="form-outline">
-                  <input type="search" id="form1" class="form-control" />
+                  <input type="search" id="buscador" class="form-control" />
                 </div>
                 <button type="submit" class="btn btn-primary">
                   Buscar
