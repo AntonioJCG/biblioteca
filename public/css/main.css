@@ -25,6 +25,19 @@
     margin-bottom: 220px;
 }
 
+.titulo-libro {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.libro {
+    background-color: rgb(255, 255, 255);
+}
+
+.libro:hover {
+    background-color: rgb(201, 201, 201);
+}
+
 @media screen and (max-width: 600px) {
     .libros {
         flex-direction: column;
