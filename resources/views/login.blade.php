@@ -27,7 +27,7 @@
                   <input type="password" class="form-control" id="password">
                 </div>
                 <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                <a href=""><button type="text" class="btn btn-success">Registrarse</button></a>
+                <a href="/biblioteca/public/registro"><button type="text" class="btn btn-success">Registrarse</button></a>
             </form>
         </div>
     </div>

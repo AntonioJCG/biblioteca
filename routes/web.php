@@ -5,6 +5,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BibliotecaController;
+use App\Http\Controllers\PerfilController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::get('/registro', RegistroController::class);
 Route::get('/home', HomeController::class);
 
 Route::get('/biblioteca', BibliotecaController::class);
+
+Route::get('/perfil', PerfilController::class);

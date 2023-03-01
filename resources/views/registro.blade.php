@@ -31,7 +31,7 @@
                   <input type="password" class="form-control" id="password">
                 </div>
                 <button type="submit" class="btn btn-primary">Registrarse</button>
-                <a href=""><button type="text" class="btn btn-success">Volver</button>
+                <a href="/biblioteca/public/"><button type="text" class="btn btn-success">Volver</button>
             </form>
         </div>
     </div>
