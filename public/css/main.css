@@ -38,6 +38,29 @@
     background-color: rgb(201, 201, 201);
 }
 
+.banner {
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 250px;
+}
+
+.banner-img {
+    width: 500px;
+    height: auto;
+}
+
+.banner-img > a > img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-letras > h2 {
+    opacity: 1;
+}
+
 @media screen and (max-width: 600px) {
     .libros {
         flex-direction: column;

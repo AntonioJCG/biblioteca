@@ -3,9 +3,14 @@
 @section('title', 'ILoveBooks')
 
 @section('content')
-<div class="principal container bg-light rounded mx-3">
-    <div class="container-fluid text-center my-3">
+<div class="principal container bg-light rounded p-5">
+    <div class="container-fluid text-center mb-5">
         <h1>¡Bienvenido/a a ILoveBooks,<br>hogar de mil historias!</h1>
+    </div>
+    <div class="banner container-fluid d-flex justify-content-center align-items-center mb-3 rounded">
+        <div class="banner-img">
+            <a href="/Laravel/biblioteca/public/biblioteca"><img src="../public/imgs/banner-img.png" alt="" class="rounded"></a>
+        </div>
     </div>
     <div class="container-fluid d-flex flex-column mb-5">
         <div class="container-fluid my-2"><h1>Libros más reservados</h1><hr></div>

@@ -17,7 +17,7 @@
             <div class="imgLogo mb-3">
                 <img src="../public/imgs/logo.png" alt="">
             </div>
-            <form>
+            <form action="" method="get">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" id="email">
@@ -30,8 +30,10 @@
                   <label for="password" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="password">
                 </div>
-                <button type="submit" class="btn btn-primary">Registrarse</button>
-                <a href="/biblioteca/public/"><button type="text" class="btn btn-success">Volver</button>
+                <div class="container-fluid d-flex justify-content-around">
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                    <button type="text" class="btn btn-success"><a href="/Laravel/biblioteca/public/" style="text-decoration: none; color:white;">Volver</a></button>
+                </div>
             </form>
         </div>
     </div>

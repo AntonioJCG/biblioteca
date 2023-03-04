@@ -26,8 +26,10 @@
                   <label for="password" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="password">
                 </div>
-                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                <a href="/biblioteca/public/registro"><button type="text" class="btn btn-success">Registrarse</button></a>
+                <div class="container-fluid d-flex justify-content-around">
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <button type="text" class="btn btn-success"><a href="/Laravel/biblioteca/public/registro" style="text-decoration: none; color:white;">Registrarse</a></button>
+                </div>            
             </form>
         </div>
     </div>
