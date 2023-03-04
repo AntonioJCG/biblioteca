@@ -10,28 +10,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="contenedor d-flex flex-column align-items-center min-vh-100 min-width">
+  <div class="contenedor d-flex flex-column align-items-center min-vh-100">
+    <!-- Barra de navegación -->
     <nav class="container-fluid navbar navbar-expand-lg bg-light">
-        <div class="container d-flex justify-content-between">
-          <a class="navbar-brand" href="/Laravel/biblioteca/public/home">ILoveBooks</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="/Laravel/biblioteca/public/biblioteca">Biblioteca</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="/Laravel/biblioteca/public/perfil">Perfil</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="/Laravel/biblioteca/public/home">ILoveBooks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto py-4 py-lg-0">
+            <li class="nav-item mx-3"><a class="nav-link active" href="/Laravel/biblioteca/public/biblioteca">Biblioteca</a></li>
+            <li class="nav-item mx-3"><a class="nav-link active" href="/Laravel/biblioteca/public/perfil">Perfil</a></li>
+          </ul>
         </div>
-    </nav>
+      </div>
+  </nav>
 
+    <!-- Contenido -->
     @yield('content')
 
+    <!-- Pie de página -->
     <footer class="container-fluid text-center bg-light p-0 m-0 position-absolute bottom-0 start-50 translate-middle-x">
       <div class="media container-fluid d-flex justify-content-center py-5">
         <img src="../public/imgs/facebook.svg" alt="">
