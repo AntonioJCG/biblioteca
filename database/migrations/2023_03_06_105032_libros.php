@@ -18,8 +18,10 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('autor');
             $table->text('descripcion');
-            $table->date('publicacion');
             $table->string('genero');
+            $table->date('publicacion');
+            $table->string('url');
+            $table->integer('reservas');
         });
     }
 
@@ -30,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('usuarios');
+        //
     }
 };
