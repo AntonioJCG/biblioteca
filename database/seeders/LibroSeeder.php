@@ -258,62 +258,64 @@ class LibroSeeder extends Seeder
 
         // Infantil vvvvvvvvvv
 
-        $libro19 = new Libro();
-        $libro19->nombre = "Abracadabra, cole de magia para aprender a leer. Esta fiesta ¡apesta!";
-        $libro19->autor = "Bárbara Fernández";
-        $libro19->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
-        $libro19->genero = "Infantil";
-        $libro19->publicacion = "2017-06-27";
-        $libro19->imagen = "";
-        $libro19->reservas = 0;
-        $libro19->save(); 
+        $libro25 = new Libro();
+        $libro25->nombre = "Abracadabra, cole de magia para aprender a leer. Esta fiesta ¡apesta!";
+        $libro25->autor = "Bárbara Fernández";
+        $libro25->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
+        $libro25->genero = "Infantil";
+        $libro25->publicacion = "2017-06-27";
+        $libro25->imagen = "";
+        $libro25->reservas = 0;
+        $libro25->save(); 
         
-        $libro19 = new Libro();
-        $libro19->nombre = "El Principito";
-        $libro19->autor = "Antoine de Saint-Exupéry";
-        $libro19->descripcion = "Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupery sobre la amistad, el amor, la responsabilidad y el sentido de la vida.
+        $libro21 = new Libro();
+        $libro21->nombre = "El Principito";
+        $libro21->autor = "Antoine de Saint-Exupéry";
+        $libro21->descripcion = "Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupery sobre la amistad, el amor, la responsabilidad y el sentido de la vida.
         'Viví así, solo, sin nadie con quien hablar verdaderamente, hasta que tuve una avería en el desierto del Sahara, hace seis años. Algo se había roto en mi motor. Y como no tenía conmigo ni mecánico ni pasajeros, me dispuse a realizar, solo, una reparación difícil. Era, para mí, cuestión de vida o muerte. Tenía agua apenas para ocho días.
         La primera noche dormí sobre la arena a mil millas de todatierra habitada. Estaba más aislado que un náufrago sobre una balsa en medio del oceano. Imaginaos, pues, mi sorpresa cuando, al romper el día, me despertó una extraña vocecita que decía:
         -Por favor..., ¡dibújame un cordero!
         - ¿Eh?
         -Dibújame un cordero...'";
-        $libro19->genero = "Infantil";
-        $libro19->publicacion = "2017-05-27";
-        $libro19->imagen = "";
-        $libro19->reservas = 0;
-        $libro19->save(); 
+        $libro21->genero = "Infantil";
+        $libro21->publicacion = "2017-05-27";
+        $libro21->imagen = "";
+        $libro21->reservas = 0;
+        $libro21->save(); 
 
-        $libro19 = new Libro();
-        $libro19->nombre = "Elmer";
-        $libro19->autor = "David Mckee";
-        $libro19->descripcion = "Elmer no es como los otros elefantes de su manada. Aunque parezca difícil de creer, es un elefante de mil colores: verde, azul, blanco, rosa, amarillo... ¡Impresionante!, ¿verdad? Pero a Elmer no le hace ni pizca de gracia ser así, más bien está harto de ser distinto, así que un día decide escaparse de la manada y buscar un remedio para poder tener el mismo color de piel que los demás...";
-        $libro19->genero = "Infantil";
-        $libro19->publicacion = "2017-04-27";
-        $libro19->imagen = "";
-        $libro19->reservas = 0;
-        $libro19->save(); 
+        $libro22 = new Libro();
+        $libro22->nombre = "Elmer";
+        $libro22->autor = "David Mckee";
+        $libro22->descripcion = "Elmer no es como los otros elefantes de su manada. Aunque parezca difícil de creer, es un elefante de mil colores: verde, azul, blanco, rosa, amarillo... ¡Impresionante!, ¿verdad? Pero a Elmer no le hace ni pizca de gracia ser así, más bien está harto de ser distinto, así que un día decide escaparse de la manada y buscar un remedio para poder tener el mismo color de piel que los demás...";
+        $libro22->genero = "Infantil";
+        $libro22->publicacion = "2017-04-27";
+        $libro22->imagen = "";
+        $libro22->reservas = 0;
+        $libro22->save(); 
 
-        $libro19 = new Libro();
-        $libro19->nombre = "Un beso antes de dormir";
-        $libro19->autor = "Teresa Tellechea Mora";
-        $libro19->descripcion = "Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.
+        $libro23 = new Libro();
+        $libro23->nombre = "Un beso antes de dormir";
+        $libro23->autor = "Teresa Tellechea Mora";
+        $libro23->descripcion = "Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.
         Todos los bebés animales besan a su madre antes de dormir. Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.";
-        $libro19->genero = "Infantil";
-        $libro19->publicacion = "2017-03s-27";
-        $libro19->imagen = "";
-        $libro19->reservas = 0;
-        $libro19->save(); 
+        $libro23->genero = "Infantil";
+        $libro23->publicacion = "2017-03s-27";
+        $libro23->imagen = "";
+        $libro23->reservas = 0;
+        $libro23->save(); 
 
-        $libro19 = new Libro();
-        $libro19->nombre = "GS 1: mi nombre es Stilton, Gerónimo Stilton";
-        $libro19->autor = "Gerónimo Stilton";
-        $libro19->descripcion = "¡La primera aventura de Gerónimo Stilton, el editor más morrocotudo de la Isla de los Ratones!
+        $libro24 = new Libro();
+        $libro24->nombre = "GS 1: mi nombre es Stilton, Gerónimo Stilton";
+        $libro24->autor = "Gerónimo Stilton";
+        $libro24->descripcion = "¡La primera aventura de Gerónimo Stilton, el editor más morrocotudo de la Isla de los Ratones!
         Desde que he contratado a mi nueva ayudante Pinky Pick, me ha ocurrido de todo: me han obligado a pasar la Nochevieja en el Polo Norte, he recorrido kilómetros a la deriva sobre iceberg y he bailado salsa durante horas y horas...
         ¿Quién es Gerónimo Stilton? ¡Soy yo! Soy un tipo distraído, con la cabeza en las nubes... Dirijo un periódico, pero mi verdadera pasión es escribir. ¡Aquí en Ratonia, en la Isla de los Ratones, todos mis libros son unos bestsellers! Pero ¿cómo?, ¿no los conocéis? Son esas historias cómicas, tan tiernas como un queso de bola, tan gustosas como un gorgonzola y tan entretenidas como contarle los agujeros a una loncha de gruyer... En definitiva, historias morrocotudas, ¡palabra de Gerónimo Stilton!";
-        $libro19->genero = "Infantil";
-        $libro19->publicacion = "2017-02-27";
-        $libro19->imagen = "";
-        $libro19->reservas = 0;
-        $libro19->save(); 
+        $libro24->genero = "Infantil";
+        $libro24->publicacion = "2017-02-27";
+        $libro24->imagen = "";
+        $libro24->reservas = 0;
+        $libro24->save();
+
+        // 
     }
 }
