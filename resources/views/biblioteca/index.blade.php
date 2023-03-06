@@ -8,24 +8,23 @@
         <h1>Buscador de libros</h1>
     </div>
     <div class="container-fluid mb-5">
-        
-        <form action="{{route('biblioteca.index')}}" method="get">
-            <div class="input-group d-flex justify-content-center">
+        <form action="{{route('biblioteca.show')}}" method="get">
+            <div class="input-group d-flex justify-content-center mb-5">
                 <div class="form-outline">
-                  <input type="search" id="buscador" name="libro" class="form-control">
+                  <input type="search" id="buscador" name="texto" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-primary">
                   Buscar
                 </button>
             </div>
-            <div>
-                <ul>
-                    @foreach ($libros as $libro)
-                        <li>{{$libro->nombre}}</li>
-                    @endforeach
-                </ul>
-            </div>
         </form>
+        <div class="row container-fluid">
+            <ul>
+                @foreach ($libros as $libro)
+                    <li>{{$libro->nombre}}</li>
+                @endforeach
+            </ul>
+        </div>
     </div>
 </div>
 @endsection

@@ -13,9 +13,10 @@ class BibliotecaController extends Controller
         return view('biblioteca.index', compact('libros'));
     }
 
-    public function show(Request $request, Libro $libro)
+    public function show(Request $texto)
     {
-        $libro = Libro::where('nombre', 'like', '%'.$libro.'%')->get();
-        return view('biblioteca.show', compact('libro'));
+        $buscado = $texto->texto;
+        $libros = Libro::where('nombre', 'LIKE', '%'.$buscado.'%')->get();
+        return view('biblioteca.show', compact('libros'));
     }
 }

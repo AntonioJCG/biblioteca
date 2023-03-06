@@ -26,6 +26,6 @@ Route::get('home', HomeController::class) ->name('home');
 
 Route::get('biblioteca', [BibliotecaController::class, 'index']) ->name('biblioteca.index');
 
-Route::get('biblioteca/{libro}', [BibliotecaController::class, 'show']) ->name('biblioteca.show');
+Route::get('muestraLibro', [BibliotecaController::class, 'show']) ->name('biblioteca.show');
 
 Route::get('perfil', PerfilController::class) ->name('perfil');
