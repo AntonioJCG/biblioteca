@@ -32,7 +32,7 @@
                 </div>
                 <div class="container-fluid d-flex justify-content-around">
                     <button type="submit" class="btn btn-primary">Registrarse</button>
-                    <button type="text" class="btn btn-success"><a href="/Laravel/biblioteca/public/" style="text-decoration: none; color:white;">Volver</a></button>
+                    <button type="text" class="btn btn-success"><a href="{{route('login')}}" style="text-decoration: none; color:white;">Volver</a></button>
                 </div>
             </form>
         </div>

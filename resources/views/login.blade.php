@@ -28,8 +28,8 @@
                 </div>
                 <div class="container-fluid d-flex justify-content-around">
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                    <button type="text" class="btn btn-success"><a href="/Laravel/biblioteca/public/registro" style="text-decoration: none; color:white;">Registrarse</a></button>
-                </div>            
+                    <button type="text" class="btn btn-success"><a href="{{route('registro')}}" style="text-decoration: none; color:white;">Registrarse</a></button>
+                </div>
             </form>
         </div>
     </div>

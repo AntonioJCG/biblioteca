@@ -22,6 +22,8 @@ return new class extends Migration
             $table->date('publicacion');
             $table->string('imagen');
             $table->integer('reservas');
+            $table->date('updated_at');
+            $table->date('created_at');
         });
     }
 

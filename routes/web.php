@@ -18,12 +18,14 @@ use App\Http\Controllers\PerfilController;
 |
 */
 
-Route::get('/', LoginController::class);
+Route::get('/', LoginController::class) ->name('login');
 
-Route::get('/registro', RegistroController::class);
+Route::get('registro', RegistroController::class) ->name('registro');
 
-Route::get('/home', HomeController::class);
+Route::get('home', HomeController::class) ->name('home');
 
-Route::get('/biblioteca', BibliotecaController::class);
+Route::get('biblioteca', [BibliotecaController::class, 'index']) ->name('biblioteca.index');
 
-Route::get('/perfil', PerfilController::class);
+Route::get('biblioteca/{libro}', [BibliotecaController::class, 'show']) ->name('biblioteca.show');
+
+Route::get('perfil', PerfilController::class) ->name('perfil');

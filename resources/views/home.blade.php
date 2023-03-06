@@ -9,7 +9,7 @@
     </div>
     <div class="banner container-fluid d-flex justify-content-center align-items-center mb-3 rounded">
         <div class="banner-img">
-            <a href="/Laravel/biblioteca/public/biblioteca"><img src="../public/imgs/banner-img.png" alt="" class="rounded"></a>
+            <a href="{{route('biblioteca.index')}}"><img src="../public/imgs/banner-img.png" alt="" class="rounded"></a>
         </div>
     </div>
     <div class="container-fluid d-flex flex-column mb-5">
@@ -27,7 +27,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  mb-3">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  mb-3">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  mb-3">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  mb-3">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center  mb-3">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
