@@ -19,7 +19,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center  mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center  mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center  mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center  mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <div class="container-fluid text-center">
                     <p class="titulo-libro">De sangre y cenizas</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center">
+                <div class="container-fluid d-flex justify-content-center  mb-3">
                     <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
                 </div>
             </div>
