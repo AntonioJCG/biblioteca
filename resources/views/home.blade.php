@@ -13,59 +13,59 @@
         </div>
     </div>
     <div class="container-fluid d-flex flex-column mb-5">
-        <div class="container-fluid my-2"><h1>Libros más reservados</h1><hr></div>
-        <div class="container-fluid d-flex justify-content-around">
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
+        <div class="container-fluid my-2"><h1>Libros más leídos</h1><hr></div>
+        <div class="row container-fluid d-flex justify-content-around">
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
                 <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+                    <p class="titulo-libro">{{$leidos[0]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$leidos[0]->imagen}}" alt=""></a>
                 </div>
             </div>
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
-                <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
+                <div class="banner-img container-fluid text-center">
+                    <p class="titulo-libro">{{$leidos[1]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$leidos[1]->imagen}}" alt=""></a>
                 </div>
             </div>
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
                 <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+                    <p class="titulo-libro">{{$leidos[2]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$leidos[2]->imagen}}" alt=""></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid d-flex flex-column mb-5">
         <div class="container-fluid my-2"><h1>Últimos libros publicados</h1><hr></div>
-        <div class="container-fluid d-flex justify-content-around">
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
+        <div class="row container-fluid d-flex justify-content-around">
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
                 <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+                    <p class="titulo-libro">{{$publicados[0]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$publicados[0]->imagen}}" alt=""></a>
                 </div>
             </div>
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
                 <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+                    <p class="titulo-libro">{{$publicados[1]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$publicados[1]->imagen}}" alt=""></a>
                 </div>
             </div>
-            <div class="libro container-fluid d-flex flex-column m-2 p-2 rounded">
+            <div class="libro container-fluid d-flex flex-column col-4 rounded">
                 <div class="container-fluid text-center">
-                    <p class="titulo-libro">De sangre y cenizas</p>
+                    <p class="titulo-libro">{{$publicados[2]->nombre}}</p>
                 </div>
-                <div class="container-fluid d-flex justify-content-center mb-3">
-                    <img src="../public/imgs/sangre.jpg" alt="" class="row container-fluid col-lg-10 col-md-12">
+                <div class="banner-img container-fluid d-flex justify-content-center mb-3">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$publicados[2]->imagen}}" alt=""></a>
                 </div>
             </div>
         </div>

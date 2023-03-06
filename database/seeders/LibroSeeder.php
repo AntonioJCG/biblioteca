@@ -23,8 +23,8 @@ class LibroSeeder extends Seeder
         $libro1->descripcion = "Nunca te encojas. Nunca temas. Y nunca, jamás, olvides. En una tierra de tres soles que nunca dan paso a la oscuridad, la joven asesina Mia Corvere acaba de unirse a la banda más mortífera de la República. De niña, Mia sobrevivió sola y a duras penas tras la rebelión fallida de su padre, que murió ejecutado por traición. Pero su misterioso don para conversar con las sombras la llevó por un camino más siniestro de lo que jamás hubiera podido imaginar. Ahora, años más tarde, debe demostrar su valía en la Iglesia Roja. Los pasillos de esta escuela de asesinos están llenos de traiciones y, para llegar a ser la adversaria que desea, Mia tiene que sobrevivir a la iniciación. Si lo logra, estará un paso más cerca de su único objetivo: venganza.";
         $libro1->genero = "Accion";
         $libro1->publicacion = "2018-03-24";
-        $libro1->imagen = "../../public/imgs/Nuncanoche.jpg";
-        $libro1->reservas = 0;
+        $libro1->imagen = "../public/imgs/Nuncanoche.jpg";
+        $libro1->lecturas = 5;
         $libro1->save();
 
 
@@ -34,8 +34,8 @@ class LibroSeeder extends Seeder
         $libro2->descripcion = "Tras su regreso del Amazonas, las cosas no han ido bien para Cassie, Eduardo y Ulises. El relato de lo que vivieron en Ciudad Negra resulta tan extraordinario que son tachados de farsantes y denostados públicamente y lo que debería haber sido un épico triunfo, se ha convertido en un dramático revés. Para demostrar que dicen la verdad y recuperar sus vidas, no les quedará más remedio que adentrarse de nuevo en lo desconocido en busca de las pruebas irrefutables que necesitan. Una búsqueda que llevará a Ulises, Cassandra y el profesor Castillo a vivir la aventura más increíble de sus vidas. Una última aventura en busca de La última revelación.";
         $libro2->genero = "Accion";
         $libro2->publicacion = "2019-03-24";
-        $libro2->imagen = "../../public/imgs/Laultimarevelacion.jpg";
-        $libro2->reservas = 0;
+        $libro2->imagen = "../public/imgs/Laultimarevelacion.jpg";
+        $libro2->lecturas = 8;
         $libro2->save();
 
         $libro3 = new Libro();
@@ -47,8 +47,8 @@ class LibroSeeder extends Seeder
         ¿Está Marfil preparada para descubrir la verdad de su pasado? ¿Lo pondrá todo en riesgo la atracción que ha surgido entre ambos?";
         $libro3->genero = "Accion";
         $libro3->publicacion = "2020-03-24";
-        $libro3->imagen = "../../public/imgs/Marfil.jpg";
-        $libro3->reservas = 0;
+        $libro3->imagen = "../public/imgs/Marfil.jpg";
+        $libro3->lecturas = 3;
         $libro3->save();
 
         $libro4 = new Libro();
@@ -57,8 +57,8 @@ class LibroSeeder extends Seeder
         $libro4->descripcion = "Ésta es la historia de un hombre, tres mujeres, una revolución y un tesoro. La revolución fue la de México en tiempos de Emiliano Zapata y Francisco Villa. El tesoro fueron quince mil monedas de oro de a veinte pesos de las denominadas maximilianos, robadas en un banco de Ciudad Juárez el 8 de mayo de 1911. El hombre se llamaba Martín Garret Ortizy era un joven ingeniero de minas español. Todo empezó para él ese mismo día, cuando desde su hotel oyó un primer disparo lejano. Salió a la calle para ver qué ocurría y a partir de ese momento su vida cambió para siempre...";
         $libro4->genero = "Accion";
         $libro4->publicacion = "2021-03-24";
-        $libro4->imagen = "../../public/imgs/Revolucion.jpg";
-        $libro4->reservas = 0;
+        $libro4->imagen = "../public/imgs/Revolucion.jpg";
+        $libro4->lecturas = 5;
         $libro4->save();
 
         $libro5 = new Libro();
@@ -67,8 +67,8 @@ class LibroSeeder extends Seeder
         $libro5->descripcion = "El desciframiento de una inscripción escrita por un alquimista islandés del siglo XVI, Arne saknussemm, le revela al profesor de minerología Otto Lidenbrock el camino para llegar al centro de la Tierra. En compañía de su sobrino Axel y del guía hans, decide emprender una fascinante expedición que, a través del cráter y la chimenea de un volcán extinguido, les ha de conducir a las entrañas de la Tierra.";
         $libro5->genero = "Accion";
         $libro5->publicacion = "2022-03-24";
-        $libro5->imagen = "../../public/imgs/Viajealcentrodelatierra.jpg";
-        $libro5->reservas = 0;
+        $libro5->imagen = "../public/imgs/Viajealcentrodelatierra.jpg";
+        $libro5->lecturas = 5;
         $libro5->save();
 
         // Ciencia ficion vvvvvvvvvvvvvvvvvvvvvvvv
@@ -80,8 +80,8 @@ class LibroSeeder extends Seeder
         Spensa es una joven que siempre ha soñado convertirse en piloto y defender a la Tierra. Pero su destino se cruza con el de su padre, un piloto que fue asesinado tras abandonar a su equipo, anulando sus opciones de asistir a la escuela de vuelo. De pronto, el ataque alienígena ha hecho duplicar la flota aérea de los humanos, facilitando que Spensa ahora sí pueda volar al espacio... ";
         $libro6->genero = "Ciencia Ficcion";
         $libro6->publicacion = "2018-03-24";
-        $libro6->imagen = "../../public/imgs/Escuadron.jpg";
-        $libro6->reservas = 0;
+        $libro6->imagen = "../public/imgs/Escuadron.jpg";
+        $libro6->lecturas = 10;
         $libro6->save();
 
         $libro7 = new Libro();
@@ -93,8 +93,8 @@ class LibroSeeder extends Seeder
         La única forma de sobrevivir es ganar; pero para hacerlo tendrá que abandonar su existencia virtual y enfrentarse a la vida y al amor en el mundo real, del que siempre ha intentado escapar.";
         $libro7->genero = "Ciencia Ficcion";
         $libro7->publicacion = "2017-03-24";
-        $libro7->imagen = "../../public/imgs/Readyplayerone.jpg";
-        $libro7->reservas = 0;
+        $libro7->imagen = "../public/imgs/Readyplayerone.jpg";
+        $libro7->lecturas = 5;
         $libro7->save();
 
         $libro8 = new Libro();
@@ -106,8 +106,8 @@ class LibroSeeder extends Seeder
         Y hay cosas que es mejor dejar muertas.";
         $libro8->genero = "Ciencia Ficcion";
         $libro8->publicacion = "2016-03-24";
-        $libro8->imagen = "../../public/imgs/Gideonlanovena.jpg";
-        $libro8->reservas = 0;
+        $libro8->imagen = "../public/imgs/Gideonlanovena.jpg";
+        $libro8->lecturas = 13;
         $libro8->save();
 
         $libro9 = new Libro();
@@ -117,8 +117,8 @@ class LibroSeeder extends Seeder
         Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar.";
         $libro9->genero = "Ciencia Ficcion";
         $libro9->publicacion = "2015-03-24";
-        $libro9->imagen = "../../public/imgs/Dune.jpg";
-        $libro9->reservas = 0;
+        $libro9->imagen = "../public/imgs/Dune.jpg";
+        $libro9->lecturas = 5;
         $libro9->save();
 
         $libro10 = new Libro();
@@ -127,8 +127,8 @@ class LibroSeeder extends Seeder
         $libro10->descripcion = "Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta y convertido al resto de la humanidad en vampiros. Su vida se ha reducido a asesinar el máximo número posible de estos seres sanguinarios durante el día, y a soportar su asedio cada noche. Para ellos, el auténtico monstruo es este hombre que lucha por subsistir en un nuevo orden establecido.";
         $libro10->genero = "Accion";
         $libro10->publicacion = "2014-03-24";
-        $libro10->imagen = "../../public/imgs/Soyleyenda.jpg";
-        $libro10->reservas = 0;
+        $libro10->imagen = "../public/imgs/Soyleyenda.jpg";
+        $libro10->lecturas = 1;
         $libro10->save();
 
         // Drama vvvvvvvvvvvv
@@ -142,7 +142,7 @@ class LibroSeeder extends Seeder
         $libro11->genero = "Drama";
         $libro11->publicacion = "2014-04-24";
         $libro11->imagen = "";
-        $libro11->reservas = 0;
+        $libro11->lecturas = 5;
         $libro11->save();
 
         $libro12 = new Libro();
@@ -152,20 +152,20 @@ class LibroSeeder extends Seeder
         $libro12->genero = "Drama";
         $libro12->publicacion = "2014-05-24";
         $libro12->imagen = "";
-        $libro12->reservas = 0;
+        $libro12->lecturas = 20;
         $libro12->save();
 
         $libro13 = new Libro();
         $libro13->nombre = "El niño con el pijama de rayas";
         $libro13->autor = "John Boyne";
-        $libro13->descripcion = "";
-        $libro13->genero = "Drama";
-        $libro13->publicacion = "2014-05-24";
-        $libro13->imagen = "Estimado lector, estimada lectora:
+        $libro13->descripcion = "Estimado lector, estimada lectora:
         Aunque el uso habitual de un texto como éste es describir las características de la obra, por una vez nos tomaremos la libertad de hacer una excepción a la norma establecida. No sólo porque el libro que tienes en tus manos es muy difícil de definir, sino porque estamos convencidos de que explicar su contenido estropearía la experiencia de la lectura. Creemos que es importante empezar esta novela sin saber de qué trata.
         No obstante, si decides embarcarte en la aventura, debes saber que acompañarás a Bruno, un niño de nueve años, cuando se muda con su familia a una casa junto a una cerca. Cercas como ésa existen en muchos sitios del mundo, sólo deseamos que no te encuentres nunca con una. Por último, cabe aclarar que este libro no es sólo para adultos; también lo pueden leer, y sería recomendable que lo hicieran, niños a partir de los trece años de edad.
         El editor";
-        $libro13->reservas = 0;
+        $libro13->genero = "Drama";
+        $libro13->publicacion = "2014-05-24";
+        $libro13->imagen = "";
+        $libro13->lecturas = 7;
         $libro13->save();
 
         $libro14 = new Libro();
@@ -178,7 +178,7 @@ class LibroSeeder extends Seeder
         $libro14->genero = "Drama";
         $libro14->publicacion = "2014-06-24";
         $libro14->imagen = "";
-        $libro14->reservas = 0;
+        $libro14->lecturas = 2;
         $libro14->save();
 
         $libro15 = new Libro();
@@ -188,7 +188,7 @@ class LibroSeeder extends Seeder
         $libro15->genero = "Drama";
         $libro15->publicacion = "2014-07-24";
         $libro15->imagen = "";
-        $libro15->reservas = 0;
+        $libro15->lecturas = 5;
         $libro15->save();
 
         // Fantasia vvvvvvvvvvvvvvvvvvvv
@@ -204,7 +204,7 @@ class LibroSeeder extends Seeder
         $libro16->genero = "Fantasia";
         $libro16->publicacion = "2015-07-25";
         $libro16->imagen = "";
-        $libro16->reservas = 0;
+        $libro16->lecturas = 5;
         $libro16->save();
 
         $libro17 = new Libro();
@@ -218,7 +218,7 @@ class LibroSeeder extends Seeder
         $libro17->genero = "Fantasia";
         $libro17->publicacion = "2016-07-26";
         $libro17->imagen = "";
-        $libro17->reservas = 0;
+        $libro17->lecturas = 5;
         $libro17->save();
 
         $libro18 = new Libro();
@@ -232,7 +232,7 @@ class LibroSeeder extends Seeder
         $libro18->genero = "Fantasia";
         $libro18->publicacion = "2016-07-26";
         $libro18->imagen = "";
-        $libro18->reservas = 0;
+        $libro18->lecturas = 5;
         $libro18->save();
 
         $libro19 = new Libro();
@@ -242,7 +242,7 @@ class LibroSeeder extends Seeder
         $libro19->genero = "Fantasia";
         $libro19->publicacion = "2017-07-27";
         $libro19->imagen = "";
-        $libro19->reservas = 0;
+        $libro19->lecturas = 5;
         $libro19->save();
 
         $libro20 = new Libro();
@@ -253,7 +253,7 @@ class LibroSeeder extends Seeder
         $libro20->genero = "Fantasia";
         $libro20->publicacion = "2018-07-28";
         $libro20->imagen = "";
-        $libro20->reservas = 0;
+        $libro20->lecturas = 5;
         $libro20->save();
 
         // Infantil vvvvvvvvvv
@@ -265,7 +265,7 @@ class LibroSeeder extends Seeder
         $libro25->genero = "Infantil";
         $libro25->publicacion = "2017-06-27";
         $libro25->imagen = "";
-        $libro25->reservas = 0;
+        $libro25->lecturas = 5;
         $libro25->save(); 
         
         $libro21 = new Libro();
@@ -280,7 +280,7 @@ class LibroSeeder extends Seeder
         $libro21->genero = "Infantil";
         $libro21->publicacion = "2017-05-27";
         $libro21->imagen = "";
-        $libro21->reservas = 0;
+        $libro21->lecturas = 5;
         $libro21->save(); 
 
         $libro22 = new Libro();
@@ -290,7 +290,7 @@ class LibroSeeder extends Seeder
         $libro22->genero = "Infantil";
         $libro22->publicacion = "2017-04-27";
         $libro22->imagen = "";
-        $libro22->reservas = 0;
+        $libro22->lecturas = 5;
         $libro22->save(); 
 
         $libro23 = new Libro();
@@ -299,9 +299,9 @@ class LibroSeeder extends Seeder
         $libro23->descripcion = "Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.
         Todos los bebés animales besan a su madre antes de dormir. Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.";
         $libro23->genero = "Infantil";
-        $libro23->publicacion = "2017-03s-27";
+        $libro23->publicacion = "2017-03-27";
         $libro23->imagen = "";
-        $libro23->reservas = 0;
+        $libro23->lecturas = 5;
         $libro23->save(); 
 
         $libro24 = new Libro();
@@ -313,7 +313,7 @@ class LibroSeeder extends Seeder
         $libro24->genero = "Infantil";
         $libro24->publicacion = "2017-02-27";
         $libro24->imagen = "";
-        $libro24->reservas = 0;
+        $libro24->lecturas = 5;
         $libro24->save();
 
         // 

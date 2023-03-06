@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('genero');
             $table->date('publicacion');
             $table->string('imagen');
-            $table->integer('reservas');
+            $table->integer('lecturas');
             $table->date('updated_at');
             $table->date('created_at');
         });

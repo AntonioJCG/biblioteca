@@ -18,12 +18,15 @@
                 </button>
             </div>
         </form>
-        <div class="row container-fluid">
-            <ul>
-                @foreach ($libros as $libro)
-                    <li>{{$libro->nombre}}</li>
-                @endforeach
-            </ul>
+        <div class="row container-fluid bg-light p-3">
+            @foreach ($libros as $libro)
+            <div class="libro container-fluid text-center p-3 col-4">
+                <p class="titulos mb-3">{{$libro->nombre}}</p>
+                <div class="banner-img container-fluid d-flex justify-content-center">
+                    <a href="{{route('biblioteca.index')}}"><img src="{{$libro->imagen}}" alt=""></a>
+                </div>
+            </div>
+            @endforeach
         </div>
     </div>
 </div>
