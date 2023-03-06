@@ -20,7 +20,7 @@ return new class extends Migration
             $table->text('descripcion');
             $table->string('genero');
             $table->date('publicacion');
-            $table->string('url');
+            $table->string('imagen');
             $table->integer('reservas');
         });
     }
