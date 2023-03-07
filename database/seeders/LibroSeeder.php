@@ -140,7 +140,7 @@ class LibroSeeder extends Seeder
         Mateo y Rufus no podrían ser más distintos, pero pronto comprenderán que los une algo mucho más que un final inminente. Juntos, están a punto de descubrir que nunca es tarde para derribar los muros; ni para reparar todo aquello que habrías hecho de otra manera si pudieras empezar de cero. Y sí, puede que los dos hayan recibido la llamada de la Muerte, pero, a lo largo de este último día, la vida y el amor pueden encenderse en sus corazones con mucha intensidad.";
         $libro11->genero = "Drama";
         $libro11->publicacion = "2014-04-24";
-        $libro11->imagen = "";
+        $libro11->imagen = "../public/imgs/Alfinalmuerenlosdos.jpg";
         $libro11->lecturas = 5;
         $libro11->save();
 
@@ -150,7 +150,7 @@ class LibroSeeder extends Seeder
         $libro12->descripcion = "A Hazel y a Gus les gustaría tener vidas más corrientes. Algunos dirían que no han nacido con estrella, que su mundo es injusto. Hazel y Gus son solo adolescentes, pero si algo les ha enseñado el cáncer que ambos padecen es que no hay tiempo para lamentaciones, porque, nos guste o no, solo existe el hoy y el ahora. Y por ello, con la intención de hacer realidad el mayor deseo de Hazel -conocer a su escritor favorito-, cruzarán juntos el Atlántico para vivir una aventura contrarreloj, tan catártica como desgarradora. Destino: Amsterdam, el lugar donde reside el enigmático y malhumorado escritor, la única persona que tal vez pueda ayudarles a ordenar las piezas del enorme puzle del que forman parte...";
         $libro12->genero = "Drama";
         $libro12->publicacion = "2014-05-24";
-        $libro12->imagen = "";
+        $libro12->imagen = "../public/imgs/Bajolamismaestrella.jpg";
         $libro12->lecturas = 20;
         $libro12->save();
 
@@ -163,7 +163,7 @@ class LibroSeeder extends Seeder
         El editor";
         $libro13->genero = "Drama";
         $libro13->publicacion = "2014-05-24";
-        $libro13->imagen = "";
+        $libro13->imagen = "../public/imgs/Elniñoconelpilamaderayas.jpg";
         $libro13->lecturas = 7;
         $libro13->save();
 
@@ -176,7 +176,7 @@ class LibroSeeder extends Seeder
         A veces, cuando más ganas tenía de ser invisible, era cuando más gente me veía, y en cambio, cuando deseaba que todos me vieran, era cuando a mi cuerpo le daba por desaparecer. ";
         $libro14->genero = "Drama";
         $libro14->publicacion = "2014-06-24";
-        $libro14->imagen = "";
+        $libro14->imagen = "../public/imgs/Invisible.jpg";
         $libro14->lecturas = 2;
         $libro14->save();
 
@@ -186,7 +186,7 @@ class LibroSeeder extends Seeder
         $libro15->descripcion = "Tras hacer un pacto con el diablo, Addie entrega su alma a cambio de la inmortalidad. Sin embargo, ningún trato faustiano está exento de consecuencias: el diablo le entregará la inmortalidad que tanto desea, pero le quitará algo que ella anhelará durante toda su existencia: la posibilidad de ser recordada. Addie abandona su pequeño pueblo natal en la Francia del siglo XVIII y comienza un viaje que la lleva por todo el mundo, mientras aprende a vivir una vida en la que nadie la recuerda y todo lo que posee acaba perdido o roto. Durante trescientos años, Addie LaRue no será más que la musa de numerosos artistas a lo largo de la historia, y tendrá que aprender a enamorarse de nuevo cada día, y a ser olvidada a la mañana siguiente. Su único compañero en este viaje es su oscuro demonio de hipnóticos ojos verdes, quien la visita cada año en el día del aniversario de su trato. Completamente sola, a Addie no le queda más remedio que enfrentarse a él, comprenderlo y, tal vez, ganarle la partida. Pero un día, en una librería de segunda mano de Manhattan, Addie conoce a alguien que pone su mundo del revés... Por primera vez, alguien la recuerda. ¿Será este el punto final de la vida de Addie LaRue? ¿O tan solo serán puntos suspensivos? ";
         $libro15->genero = "Drama";
         $libro15->publicacion = "2014-07-24";
-        $libro15->imagen = "";
+        $libro15->imagen = "../public/imgs/Lavidainvisibledeaddielarue.jpg";
         $libro15->lecturas = 5;
         $libro15->save();
 
@@ -202,7 +202,7 @@ class LibroSeeder extends Seeder
         Abandonado por los dioses y temido por los mortales, un reino caído está resurgiendo, decidido a recuperar lo que cree que es suyo mediante la violencia y la venganza. Y a medida que la sombra de los malditos se acerca, la línea entre lo prohibido y lo correcto se difumina. Poppy no solo está a punto de perder el corazón y ser considerada indigna por los dioses, sino que también está a punto de perder la vida cuando los ensangrentados hilos que mantienen unido su mundo empiezan a deshilacharse.";
         $libro16->genero = "Fantasia";
         $libro16->publicacion = "2015-07-25";
-        $libro16->imagen = "";
+        $libro16->imagen = "../public/imgs/Desangreycenizas.jpg";
         $libro16->lecturas = 5;
         $libro16->save();
 
@@ -216,7 +216,7 @@ class LibroSeeder extends Seeder
         «Me llamo Kvothe. Quizá hayas oído hablar de mí».";
         $libro17->genero = "Fantasia";
         $libro17->publicacion = "2016-07-26";
-        $libro17->imagen = "";
+        $libro17->imagen = "../public/imgs/Elnombredelviento.jpg";
         $libro17->lecturas = 5;
         $libro17->save();
 
@@ -230,7 +230,7 @@ class LibroSeeder extends Seeder
         Emilia y su hermana gemela Vittoria son streghe: brujas que viven en secreto entre los humanos, evitando llamar la atención y ser perseguidas. Pero una noche, Vittoria se pierde el turno de la cena en el famoso restaurante siciliano que regenta la familia. Y Emilia pronto encuentra el cuerpo de su querida gemela... profanado más allá de lo imaginable. Devastada, se propone encontrar al asesino de su hermana y conseguir venganza a cualquier precio, incluso si eso significa usar magia oscura, que lleva mucho tiempo prohibida.";
         $libro18->genero = "Fantasia";
         $libro18->publicacion = "2016-07-26";
-        $libro18->imagen = "";
+        $libro18->imagen = "../public/imgs/Elreinodelosmalditos.jpg";
         $libro18->lecturas = 5;
         $libro18->save();
 
@@ -240,7 +240,7 @@ class LibroSeeder extends Seeder
         $libro19->descripcion = "Ketterdam: Un desbordante foco de comercio internacional donde todo se puede conseguir por el precio adecuado, como bien sabe el prodigio criminal Kaz Brekker. A Kaz le acaban de ofrecer la oportunidad de llevar a cabo un gran robo, un arriesgado golpe que podría hacerle más rico de lo que jamás se ha atrevido a imaginar en sus sueños más salvajes. Pero no podrá llevarlo a cabo por sí solo: tendrá que reclutar a un peculiar equipo formado por un convicto, una espía, un pistolero, una Grisha, un ladrón y un fugitivo. Aunque ellos no lo saben, llegado el momento los miembros del grupo de Kaz serán los únicos capaces de salvar el mundo de la aniquilación total. Bueno, lo serán si no se matan entre ellos primero.";
         $libro19->genero = "Fantasia";
         $libro19->publicacion = "2017-07-27";
-        $libro19->imagen = "";
+        $libro19->imagen = "../public/imgs/Seisdecuervos.jpg";
         $libro19->lecturas = 5;
         $libro19->save();
 
@@ -251,7 +251,7 @@ class LibroSeeder extends Seeder
         Mientras Feyre vive en su castillo, lo que siente por Tamlin muta de una hostilidad helada a una pasión ardiente y feroz, a pesar de todas las mentiras y advertencias a las que queda expuesta en ese mundo fantástico, bello y peligroso. Además, una vil sombra ancestral crece sobre la tierra de las hadas día a día, y Feyre debe encontrar la forma de detenerla... o condenar a Tamlin –y a su mundo– para siempre.";
         $libro20->genero = "Fantasia";
         $libro20->publicacion = "2018-07-28";
-        $libro20->imagen = "";
+        $libro20->imagen = "../public/imgs/Unacortederosasyespinas.jpg";
         $libro20->lecturas = 5;
         $libro20->save();
 
@@ -267,7 +267,7 @@ class LibroSeeder extends Seeder
         -Dibújame un cordero...'";
         $libro21->genero = "Infantil";
         $libro21->publicacion = "2017-05-27";
-        $libro21->imagen = "";
+        $libro21->imagen = "../public/imgs/Elprincipito.jpg";
         $libro21->lecturas = 5;
         $libro21->save(); 
 
@@ -277,7 +277,7 @@ class LibroSeeder extends Seeder
         $libro22->descripcion = "Elmer no es como los otros elefantes de su manada. Aunque parezca difícil de creer, es un elefante de mil colores: verde, azul, blanco, rosa, amarillo... ¡Impresionante!, ¿verdad? Pero a Elmer no le hace ni pizca de gracia ser así, más bien está harto de ser distinto, así que un día decide escaparse de la manada y buscar un remedio para poder tener el mismo color de piel que los demás...";
         $libro22->genero = "Infantil";
         $libro22->publicacion = "2017-04-27";
-        $libro22->imagen = "";
+        $libro22->imagen = "../public/imgs/Elmer.jpg";
         $libro22->lecturas = 5;
         $libro22->save(); 
 
@@ -288,7 +288,7 @@ class LibroSeeder extends Seeder
         Todos los bebés animales besan a su madre antes de dormir. Un libro de cartón con tiernas ilustraciones para leer a tu hijo antes de ir a dormir.";
         $libro23->genero = "Infantil";
         $libro23->publicacion = "2017-03-27";
-        $libro23->imagen = "";
+        $libro23->imagen = "../public/imgs/Unbesoantesdedormir.jpg";
         $libro23->lecturas = 5;
         $libro23->save(); 
 
@@ -300,7 +300,7 @@ class LibroSeeder extends Seeder
         ¿Quién es Gerónimo Stilton? ¡Soy yo! Soy un tipo distraído, con la cabeza en las nubes... Dirijo un periódico, pero mi verdadera pasión es escribir. ¡Aquí en Ratonia, en la Isla de los Ratones, todos mis libros son unos bestsellers! Pero ¿cómo?, ¿no los conocéis? Son esas historias cómicas, tan tiernas como un queso de bola, tan gustosas como un gorgonzola y tan entretenidas como contarle los agujeros a una loncha de gruyer... En definitiva, historias morrocotudas, ¡palabra de Gerónimo Stilton!";
         $libro24->genero = "Infantil";
         $libro24->publicacion = "2017-02-27";
-        $libro24->imagen = "";
+        $libro24->imagen = "../public/imgs/Geronimostilton.jpg";
         $libro24->lecturas = 5;
         $libro24->save();
 
@@ -310,7 +310,7 @@ class LibroSeeder extends Seeder
         $libro25->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
         $libro25->genero = "Infantil";
         $libro25->publicacion = "2017-06-27";
-        $libro25->imagen = "";
+        $libro25->imagen = "../public/imgs/Abracadbra.jpg";
         $libro25->lecturas = 5;
         $libro25->save(); 
 
