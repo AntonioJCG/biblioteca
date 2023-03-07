@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('email');
             $table->string('clave');
             $table->boolean('admin');
+            $table->date('updated_at');
+            $table->date('created_at');
         });
     }
 

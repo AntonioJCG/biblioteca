@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('idLibro');
             $table->string('nombreLibro');
             $table->string('idUsuario');
+            $table->date('updated_at');
+            $table->date('created_at');
         });
     }
 
