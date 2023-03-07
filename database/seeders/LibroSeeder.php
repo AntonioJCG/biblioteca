@@ -314,6 +314,174 @@ class LibroSeeder extends Seeder
         $libro25->lecturas = 5;
         $libro25->save(); 
 
-        // 
+        // Juvenil vvvvvvvvvvvv
+
+        $libro26 = new Libro();
+        $libro26->nombre = "Asesinato para principiantes";
+        $libro26->autor = "Holly Jackson";
+        $libro26->descripcion = "¿Quién mató a Andie Bell? Todos creen saber la verdad, pero solo Pippa sabe que están equivocados.
+        Hace cinco años, la estudiante Andie Bell fue asesinada por Sal Singh. La policía sabe que fue él. Sus compañeros también. Todo el mundo lo sabe.
+        Pero Pippa ha crecido en la misma ciudad que ha sido y no lo tiene tan claro... Decidida a desenterrar la verdad, Pippa convierte este asesinato en el tema de su proyecto de final de curso. Poco a poco, empezará a descubrir secretos que alguien se ha empeñado en ocultar. Si el asesino sigue suelto ¿qué será́ capaz de hacer para mantener a Pippa alejada de la verdad?";
+        $libro26->genero = "Juvenil";
+        $libro26->publicacion = "2017-08-23";
+        $libro26->imagen = "../public/imgs/Asesinatoparaprincipiantes.jpg";
+        $libro26->lecturas = 4;
+        $libro26->save(); 
+
+        $libro27 = new Libro();
+        $libro27->nombre = "Bad Ash 1. Saltan chispas";
+        $libro27->autor = "Alina Not";
+        $libro27->descripcion = "Ashley Bennet lleva la vida colgada de Tyler Sparks, elquarterbackdel equipo de fútbol del instituto. Ella lo sabe, sus amigas lo saben, él lo sabe, ¡todo el instituto lo sabe! El problema es que Ashley también sabe que nunca será suyo. Pero Cameron Parker, el mejor amigo de Tyler, le propone algo: ayudarla a conseguir que el chico de sus sueños se fije en ella.
+        Cameron Parker ha elegido a la chica perfecta. Solo hay que pulirla un poco. En cuanto lo consiga, el resto saldrá rodado. Podrá librarse de la bruja con la que sale su mejor amigo y conseguir que este vuelva a ser el de antes. Lo tiene todo meticulosamente calculado.
+        Solo que olvidó que el amor no es fácil de controlar.";
+        $libro27->genero = "Juvenil";
+        $libro27->publicacion = "2018-12-27";
+        $libro27->imagen = "../public/imgs/Badash.jpg";
+        $libro27->lecturas = 4;
+        $libro27->save(); 
+
+        $libro28 = new Libro();
+        $libro28->nombre = "Cazadores de sombras 1: Ciudad de Hueso";
+        $libro28->autor = "Cassandra Clare";
+        $libro28->descripcion = "En el Pandemonium, la discoteca de moda de Nueva York, Clary sigue a un atractivo chico de pelo azul hasta que presencia su muerte a manos de tres jóvenes cubiertos de extraños tatuajes. Desde esa noche, su destino se une al de esos tres cazadores de sombras, guerreros dedicados a liberar a la tierra de demonios y, sobre todo, al de Jace, un chico con aspecto de ángel y tendencia a actuar como un idiota...";
+        $libro28->genero = "Juvenil";
+        $libro28->publicacion = "2019-01-17";
+        $libro28->imagen = "../public/imgs/Cazadoresdesombras.jpg";
+        $libro28->lecturas = 4;
+        $libro28->save(); 
+
+        $libro29 = new Libro();
+        $libro29->nombre = "Harry Potter y la piedra filosofal";
+        $libro29->autor = "J.K. Rowling";
+        $libro29->descripcion = "'Con las manos temblorosas, Harry le dio la vuelta al sobre y vio un sello de lacre púrpura con un escudo de armas: un león, un águila, un tejón y una serpiente, que rodeaban una gran letra H.'
+        Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una aventura increíble!";
+        $libro29->genero = "Juvenil";
+        $libro29->publicacion = "2000-06-27";
+        $libro29->imagen = "../public/imgs/Harrypotter.jpg";
+        $libro29->lecturas = 4;
+        $libro29->save(); 
+
+        $libro30 = new Libro();
+        $libro30->nombre = "Las luces de septiembre";
+        $libro30->autor = "Carlos Ruiz Zafón";
+        $libro30->descripcion = "Un verano que dejó una huella de aventura y emociones. 
+        Un misterioso fabricante de juguetes vive recluido en una mansión gigantesca poblada de seres mecánicos y sombras del pasado.
+        Un enigma en torno a las extrañas luces que brillan entre la niebla que rodea el islote del faro. Una criatura de pesadilla que se oculta en la profundidad del bosque. Estos y otros elementos tejen la trama del misterio que unirá a Irene e Ismael para siempre durante un mágico verano en Bahía Azul.";
+        $libro30->genero = "Juvenil";
+        $libro30->publicacion = "2010-06-27";
+        $libro30->imagen = "../public/imgs/Laslucesdeseptiembre.jpg";
+        $libro30->lecturas = 4;
+        $libro30->save(); 
+
+        $libro31 = new Libro();
+        $libro31->nombre = "Nos quedaran más atardeceres";
+        $libro31->autor = "Manu Erena";
+        $libro31->descripcion = "«Hay veces en las que creemos
+        tan ciegamente en alguien que
+        terminamos olvidándonos de
+        nosotros mismos.
+        Pero debemos aprender a decir adiós
+        para poder sanar cada una de nuestras heridas
+        y a perdernos las veces que haga falta.
+        Porque nos quedarán más atardeceres,
+        a todos nosotros.
+        Porque cuando dejas que el daño se vaya,
+        solo queda volver a quererte.»
+        Cada verso de este libro habla de ti. Habla de la pérdida que todos hemos vivido y de la esperanza que nunca debemos perder. Habla de cómo siempre debemos sanar nuestras propias heridas para que florezca lo que parecía perdido.";
+        $libro31->genero = "Poesia";
+        $libro31->publicacion = "2017-06-27";
+        $libro31->imagen = "../public/imgs/Nosquedaranmasatardeceres.jpg";
+        $libro31->lecturas = 4;
+        $libro31->save(); 
+
+        $libro32 = new Libro();
+        $libro32->nombre = "Poesía completa";
+        $libro32->autor = "Antonio Machado";
+        $libro32->descripcion = "Max Aub decía que Antonio Machado, uno de los máximos representantes de la Generación del 98, simbolizaba 'un modo de ser'. Su poesía se inspiró en los campos castellanos y en la vida de los españoles de la época, poniendo de manifiesto las grietas existentes en su sociedad. De manera profética, Machado escribió poemas sobre la violencia de un país que, tras el estallido de la guerra civil, acabó por expulsarlo. Esta nueva recopilación de su poesía, que incluye inéditos y variantes, pretende devolver a Machado al público actual de manera íntegra y renovada. Se completa con una iluminadora introducción sobre los últimos días del poeta y una detallada cronología de su vida y obra. ";
+        $libro32->genero = "Poesia";
+        $libro32->publicacion = "2017-06-27";
+        $libro32->imagen = "../public/imgs/Poesiacompleta.jpg";
+        $libro32->lecturas = 4;
+        $libro32->save(); 
+
+        $libro33 = new Libro();
+        $libro33->nombre = "Poesía encantada";
+        $libro33->autor = "José González Torices";
+        $libro33->descripcion = "¿Dónde vive el escritor? ¿En la luna, en el olivo? ¿Vive dentro de los peces? ¿En el canto de los mirlos? ¿De dónde saca la tinta? ¿Del calamar, del membrillo? (El escritor el un mago que va vestido de niño) Dime, mama, dónde vive el escritor de mis libros. ¡Vive dentro de las letras que van jugando contigo!";
+        $libro33->genero = "";
+        $libro33->publicacion = "2017-06-27";
+        $libro33->imagen = "../public/imgs/.jpg";
+        $libro33->lecturas = 4;
+        $libro33->save(); 
+
+        $libro34 = new Libro();
+        $libro34->nombre = "";
+        $libro34->autor = "";
+        $libro34->descripcion = "";
+        $libro34->genero = "";
+        $libro34->publicacion = "2017-06-27";
+        $libro34->imagen = "../public/imgs/.jpg";
+        $libro34->lecturas = 4;
+        $libro34->save(); 
+
+        $libro35 = new Libro();
+        $libro35->nombre = "";
+        $libro35->autor = "";
+        $libro35->descripcion = "";
+        $libro35->genero = "";
+        $libro35->publicacion = "2017-06-27";
+        $libro35->imagen = "../public/imgs/.jpg";
+        $libro35->lecturas = 4;
+        $libro35->save(); 
+
+        $libro36 = new Libro();
+        $libro36->nombre = "";
+        $libro36->autor = "";
+        $libro36->descripcion = "";
+        $libro36->genero = "";
+        $libro36->publicacion = "2017-06-27";
+        $libro36->imagen = "../public/imgs/.jpg";
+        $libro36->lecturas = 4;
+        $libro36->save(); 
+
+        $libro37 = new Libro();
+        $libro37->nombre = "";
+        $libro37->autor = "";
+        $libro37->descripcion = "";
+        $libro37->genero = "";
+        $libro37->publicacion = "2017-06-27";
+        $libro37->imagen = "../public/imgs/.jpg";
+        $libro37->lecturas = 4;
+        $libro37->save(); 
+
+        $libro38 = new Libro();
+        $libro38->nombre = "";
+        $libro38->autor = "";
+        $libro38->descripcion = "";
+        $libro38->genero = "";
+        $libro38->publicacion = "2017-06-27";
+        $libro38->imagen = "../public/imgs/.jpg";
+        $libro38->lecturas = 4;
+        $libro38->save(); 
+
+        $libro39 = new Libro();
+        $libro39->nombre = "";
+        $libro39->autor = "";
+        $libro39->descripcion = "";
+        $libro39->genero = "";
+        $libro39->publicacion = "2017-06-27";
+        $libro39->imagen = "../public/imgs/.jpg";
+        $libro39->lecturas = 4;
+        $libro39->save(); 
+
+        $libro40 = new Libro();
+        $libro40->nombre = "";
+        $libro40->autor = "";
+        $libro40->descripcion = "";
+        $libro40->genero = "";
+        $libro40->publicacion = "2017-06-27";
+        $libro40->imagen = "../public/imgs/.jpg";
+        $libro40->lecturas = 4;
+        $libro40->save(); 
     }
 }
