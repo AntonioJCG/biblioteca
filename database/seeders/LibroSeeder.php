@@ -399,7 +399,7 @@ class LibroSeeder extends Seeder
         $libro32->autor = "Antonio Machado";
         $libro32->descripcion = "Max Aub decía que Antonio Machado, uno de los máximos representantes de la Generación del 98, simbolizaba 'un modo de ser'. Su poesía se inspiró en los campos castellanos y en la vida de los españoles de la época, poniendo de manifiesto las grietas existentes en su sociedad. De manera profética, Machado escribió poemas sobre la violencia de un país que, tras el estallido de la guerra civil, acabó por expulsarlo. Esta nueva recopilación de su poesía, que incluye inéditos y variantes, pretende devolver a Machado al público actual de manera íntegra y renovada. Se completa con una iluminadora introducción sobre los últimos días del poeta y una detallada cronología de su vida y obra. ";
         $libro32->genero = "Poesia";
-        $libro32->publicacion = "2017-06-27";
+        $libro32->publicacion = "2011-04-27";
         $libro32->imagen = "../public/imgs/Poesiacompleta.jpg";
         $libro32->lecturas = 4;
         $libro32->save(); 
@@ -408,31 +408,31 @@ class LibroSeeder extends Seeder
         $libro33->nombre = "Poesía encantada";
         $libro33->autor = "José González Torices";
         $libro33->descripcion = "¿Dónde vive el escritor? ¿En la luna, en el olivo? ¿Vive dentro de los peces? ¿En el canto de los mirlos? ¿De dónde saca la tinta? ¿Del calamar, del membrillo? (El escritor el un mago que va vestido de niño) Dime, mama, dónde vive el escritor de mis libros. ¡Vive dentro de las letras que van jugando contigo!";
-        $libro33->genero = "";
+        $libro33->genero = "Poesia";
         $libro33->publicacion = "2017-06-27";
-        $libro33->imagen = "../public/imgs/.jpg";
+        $libro33->imagen = "../public/imgs/Poesiaencantada.jpg";
         $libro33->lecturas = 4;
         $libro33->save(); 
 
         $libro34 = new Libro();
-        $libro34->nombre = "";
-        $libro34->autor = "";
-        $libro34->descripcion = "";
-        $libro34->genero = "";
-        $libro34->publicacion = "2017-06-27";
-        $libro34->imagen = "../public/imgs/.jpg";
+        $libro34->nombre = "Rimas y leyendas";
+        $libro34->autor = "Gustavo Adolfo Bécquer";
+        $libro34->descripcion = "Rompedoras en lo formal y emocionantes en lo temático, las Rimas nos muestran una de las voces líricas más depuradas y memorables del siglo XIX, cuya fama se ha perpetuado de generación en generación. Las 16 Leyendas presentes en este volumen confirman a Bécquer como el gran renovador del cuento español decimonónico. Su magistral tratamiento de lo fantástico en historias como «Maese Pérez, el organista», «El monte de las Ánimas» o «Los ojos verdes» hace de ellas auténticas obras maestras del relato gótico.";
+        $libro34->genero = "Poesia";
+        $libro34->publicacion = "2015-06-27";
+        $libro34->imagen = "../public/imgs/Rimasyleyendas.jpg";
         $libro34->lecturas = 4;
         $libro34->save(); 
 
         $libro35 = new Libro();
-        $libro35->nombre = "";
-        $libro35->autor = "";
-        $libro35->descripcion = "";
-        $libro35->genero = "";
-        $libro35->publicacion = "2017-06-27";
-        $libro35->imagen = "../public/imgs/.jpg";
+        $libro35->nombre = "Una mujer en la garganta";
+        $libro35->autor = "Marwán";
+        $libro35->descripcion = "Un libro que es una reivindicación de los amores pasionales y de la belleza, pero también una autorreivindicación poética, mundo en el que Marwán se siente un apátrida al no reconocerse dentro de ninguna tradición. De todos sus poemarios es el más rebelde, tanto en su manera de subrayar el frenesí amoroso y la locura del poeta como en la búsqueda de no encajar en ningún molde, ni siquiera en los suyos propios. Poesía a contracorriente, que es lo que siempre ha hecho Marwán desde que capitalizó el cambio que en los últimos años vivió el mundo poético y del que hoy nos trae su cuarto libro. Amores que caminan por el angosto filo de la insensatez y no acatan las normas, legiones de sentimientos, delitos que se cometen a espaldas de la rutina, sonetos, aforismos, reflexiones en torno al quehacer poético, el vuelo de un poeta llamado Ícaro. Eso es este libro.";
+        $libro35->genero = "Poesia";
+        $libro35->publicacion = "2014-03-16";
+        $libro35->imagen = "../public/imgs/Unamujerenlagarganta.jpg";
         $libro35->lecturas = 4;
-        $libro35->save(); 
+        $libro35->save();
 
         $libro36 = new Libro();
         $libro36->nombre = "";
