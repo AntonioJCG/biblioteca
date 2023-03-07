@@ -431,7 +431,7 @@ class LibroSeeder extends Seeder
         $libro35->genero = "Poesia";
         $libro35->publicacion = "2014-03-16";
         $libro35->imagen = "../public/imgs/Unamujerenlagarganta.jpg";
-        $libro35->lecturas = 4;
+        $libro35->lecturas = 5;
         $libro35->save(); 
 
         $libro36 = new Libro();
