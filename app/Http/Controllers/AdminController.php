@@ -13,9 +13,10 @@ class AdminController extends Controller
         return view('admin.create', compact('id'));
     }
 
-    public function update()
+    public function update(Request $request)
     {
-        return view('admin.update');
+        $libro = Libro::where('id', $request->id)->get();
+        return view('admin.update', compact('libro'));
     }
 
     public function delete()

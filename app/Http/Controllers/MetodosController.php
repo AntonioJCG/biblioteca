@@ -21,8 +21,16 @@ class MetodosController extends Controller
         return view('metodo.create');
     }
 
-    public function edit()
+    public function update(Request $request, Libro $libro)
     {
+        $libro->nombre = $request->nombre;
+        $libro->autor = $request->autor;
+        $libro->descripcion = $request->descripcion;
+        $libro->genero = $request->genero;
+        $libro->publicacion = $request->publicacion;
+        $libro->imagen = $request->imagen;
+        $libro->lecturas = $request->lecturas;
+        $libro->save();
         return view('metodo.update');
     }
 

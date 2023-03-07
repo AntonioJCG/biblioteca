@@ -40,6 +40,6 @@ Route::get('borrarLibro', [AdminController::class, 'delete']) ->name('admin.dele
 
 Route::post('metodo/create', [MetodosController::class, 'store']) ->name('metodo.store');
 
-Route::get('metodo', [MetodosController::class, 'edit']) ->name('metodo.edit');
+Route::put('metodo/{libro}', [MetodosController::class, 'update']) ->name('metodo.update');
 
 Route::delete('metodo/{id}', [MetodosController::class, 'destroy']) ->name('metodo.destroy');

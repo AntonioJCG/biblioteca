@@ -42,7 +42,11 @@
                     Agregar libro
                 </button>
             </form>
-            <form action="{{Route('admin.update')}}" method="get">
+            <form action="{{Route('admin.update')}}" method="get" class="container-fluid d-flex flex-column align-items-center">
+                <div class="mb-3">
+                    <label for="id" class="form-label">Id</label>
+                    <input type="number" class="form-control" id="id" name="id">
+                </div>
                 <button type="submit" class="btn btn-primary mb-3">
                     Modificar libro
                 </button>
