@@ -435,52 +435,59 @@ class LibroSeeder extends Seeder
         $libro35->save(); 
 
         $libro36 = new Libro();
-        $libro36->nombre = "";
-        $libro36->autor = "";
-        $libro36->descripcion = "";
-        $libro36->genero = "";
-        $libro36->publicacion = "2017-06-27";
-        $libro36->imagen = "../public/imgs/.jpg";
+        $libro36->nombre = "Drácula";
+        $libro36->autor = "Bram Stoker";
+        $libro36->descripcion = "Antes de convertirse en un vampiro, el conde Drácula era el príncipe Vlad que, al enterarse de la muerte de su amada, vendió su alma al diablo. Cuatro siglos más tarde, Jonathan Harker, un joven abogado que viaja a un castillo perdido en el este de Europa, acaba siendo capturado por el conde Drácula.";
+        $libro36->genero = "Terror";
+        $libro36->publicacion = "2027-06-27";
+        $libro36->imagen = "../public/imgs/Dracula.jpg";
         $libro36->lecturas = 4;
         $libro36->save(); 
 
         $libro37 = new Libro();
-        $libro37->nombre = "";
-        $libro37->autor = "";
-        $libro37->descripcion = "";
-        $libro37->genero = "";
-        $libro37->publicacion = "2017-06-27";
-        $libro37->imagen = "../public/imgs/.jpg";
+        $libro37->nombre = "El extraño caso de Dr. Jekyll y mr. Hyde";
+        $libro37->autor = "Robert Louis Stevenson";
+        $libro37->descripcion = "«Permanecí unos momentos ante el espejo...», dice Henry Jekyll en su confesión. ¿Quién hay al otro lado del espejo?, parece querer averiguar. ¿Soy yo el que se refleja en él o es el otro que está dentro de mí? ¿Cómo soy realmente? ¿Cómo quiero ser? ¿Cómo creen los demás que soy?
+        El Dr. Jekyll desarrolla una droga para separar su lado bueno del malo. Es este último lado quien, noche tras noche, toma el control de su personalidad y lo convertirá en el monstruoso señor Hyde. El abogado Utterson intenta descifrar el misterio.";
+        $libro37->genero = "Terror";
+        $libro37->publicacion = "2013-11-28";
+        $libro37->imagen = "../public/imgs/Elextrañocaso.jpg";
         $libro37->lecturas = 4;
         $libro37->save(); 
 
         $libro38 = new Libro();
-        $libro38->nombre = "";
-        $libro38->autor = "";
-        $libro38->descripcion = "";
+        $libro38->nombre = "El Instituto";
+        $libro38->autor = "Stephen King";
+        $libro38->descripcion = "En mitad de la noche en un barrio tranquilo de Minneapolis raptan a Luke Ellis, de doce años, tras haber asesinado a sus padres. Una operación que dura menos de dos minutos. Luke se despierta en la siniestra institución conocida como el Instituto, en un cuarto que se asemeja al suyo, pero sin ventanas. En habitaciones parecidas hay más niños: Kalisha, Nick, George, Iris y Avery Dixon, entre otros, que comparten capacidades especiales como la telequinesia o la telepatía. Todos ellos se alojan en la Mitad Delantera de la institución. Los mayores, en cambio, se encuentran en la Mitad Trasera. Como dice Kalisha: «El que entra no sale».
+        La señora Sigsby, la directora, y el resto del personal se dedican a aprovecharse sin compasión del talento paranormal de los chicos. Si te portas bien te premian. Si no, el castigo es brutal. Luke se da cuenta de que las víctimas van desapareciendo y son trasladadas a la Mitad Trasera, así que se obsesiona con huir y pedir ayuda. Pero nunca nadie ha escapado del Instituto... ";
         $libro38->genero = "";
-        $libro38->publicacion = "2017-06-27";
-        $libro38->imagen = "../public/imgs/.jpg";
+        $libro38->publicacion = "2002-06-27";
+        $libro38->imagen = "../public/imgs/Elinstituto.jpg";
         $libro38->lecturas = 4;
         $libro38->save(); 
 
         $libro39 = new Libro();
-        $libro39->nombre = "";
-        $libro39->autor = "";
-        $libro39->descripcion = "";
-        $libro39->genero = "";
-        $libro39->publicacion = "2017-06-27";
-        $libro39->imagen = "../public/imgs/.jpg";
+        $libro39->nombre = "El juego del alma";
+        $libro39->autor = "Javier Castillo";
+        $libro39->descripcion = "Nueva York, 2011. Una chica de quince años aparece crucificada en un suburbio a las afueras. Miren Triggs, periodista de investigación del Manhattan Press, recibe de manera inesperada un extraño sobre. En su interior, la polaroid de otra adolescente amordazada y maniatada, con una sola anotación: 'GINA PEBBLES, 2002'.
+        Miren Triggs y Jim Schmoer, su antiguo profesor de periodismo, seguirán la pista de la chica de la imagen mientras investigan la crucifixión de Nueva York. Así se adentrarán en una institución religiosa en la que todo son secretos y en un enigma único lleno de suspense en el que deberán descifrar tres preguntas de respuesta imposible: ¿qué le sucedió a Gina?, ¿quién envía la polaroid? y, la más importante; ¿están conectadas ambas historias?
+        ¿Quieres jugar?";
+        $libro39->genero = "Terror";
+        $libro39->publicacion = "2011-06-27";
+        $libro39->imagen = "../public/imgs/Eljuegodelalma.jpg";
         $libro39->lecturas = 4;
         $libro39->save(); 
 
         $libro40 = new Libro();
-        $libro40->nombre = "";
-        $libro40->autor = "";
-        $libro40->descripcion = "";
-        $libro40->genero = "";
-        $libro40->publicacion = "2017-06-27";
-        $libro40->imagen = "../public/imgs/.jpg";
+        $libro40->nombre = "Pasos en el piso de arriba";
+        $libro40->autor = "Salvador Acaso Deltell";
+        $libro40->descripcion = "¿Qué pasaría si a un profesor que ha publicado un libro de cuentos de miedo se le acerca una de sus alumnas y le dice: «¿Sabes mucho de fantasmas? Es que en mi casa tenemos uno...»
+        ¿Existen los fantasmas? ¿Qué es un fantasma? ¿Hay diferentes tipos de fantasmas?
+        Una escalofriante novela en la que la intriga se mezcla con elementos de investigación científica.
+        Las novelas de terror se cuentan dentro de escenarios lúgubres, fúnebres, abandonados y sombríos y están pobladas por personajes extraños que recorren castillos medievales… Lo terrorífico de Pasos en el piso de arriba es que la puerta a los misterios del más allá está en el piso de arriba de un viejo chalet de la sierra del Guadarrama, y quien se ve obligado a cruzarla es un maduro profesor madrileño, en nada diferente a cualquiera de los lectores.";
+        $libro40->genero = "Terror";
+        $libro40->publicacion = "2012-06-27";
+        $libro40->imagen = "../public/imgs/Pasosenelpisodearriba.jpg";
         $libro40->lecturas = 4;
         $libro40->save(); 
     }
