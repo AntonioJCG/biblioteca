@@ -256,17 +256,6 @@ class LibroSeeder extends Seeder
         $libro20->save();
 
         // Infantil vvvvvvvvvv
-
-        $libro25 = new Libro();
-        $libro25->nombre = "Abracadabra, cole de magia para aprender a leer. Esta fiesta ¡apesta!";
-        $libro25->autor = "Bárbara Fernández";
-        $libro25->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
-        $libro25->genero = "Infantil";
-        $libro25->publicacion = "2017-06-27";
-        $libro25->imagen = "";
-        $libro25->lecturas = 5;
-        $libro25->save(); 
-        
         $libro21 = new Libro();
         $libro21->nombre = "El Principito";
         $libro21->autor = "Antoine de Saint-Exupéry";
@@ -314,6 +303,16 @@ class LibroSeeder extends Seeder
         $libro24->imagen = "";
         $libro24->lecturas = 5;
         $libro24->save();
+
+        $libro25 = new Libro();
+        $libro25->nombre = "Abracadabra, cole de magia para aprender a leer. Esta fiesta ¡apesta!";
+        $libro25->autor = "Bárbara Fernández";
+        $libro25->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
+        $libro25->genero = "Infantil";
+        $libro25->publicacion = "2017-06-27";
+        $libro25->imagen = "";
+        $libro25->lecturas = 5;
+        $libro25->save(); 
 
         // 
     }
