@@ -6,6 +6,8 @@ use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BibliotecaController;
 use App\Http\Controllers\PerfilController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MetodosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +28,18 @@ Route::get('home', HomeController::class) ->name('home');
 
 Route::get('biblioteca', [BibliotecaController::class, 'index']) ->name('biblioteca.index');
 
-Route::get('muestraLibro', [BibliotecaController::class, 'show']) ->name('biblioteca.show');
+Route::get('resultados', [BibliotecaController::class, 'show']) ->name('biblioteca.show');
 
-Route::get('perfil', PerfilController::class) ->name('perfil');
+Route::get('perfil', [PerfilController::class, 'showUsuario']) ->name('perfil');
+
+Route::get('agregarLibro', [AdminController::class, 'create']) ->name('admin.create');
+
+Route::get('modLibro', [AdminController::class, 'update']) ->name('admin.update');
+
+Route::get('borrarLibro', [AdminController::class, 'delete']) ->name('admin.delete');
+
+Route::post('metodo/create', [MetodosController::class, 'store']) ->name('metodo.store');
+
+Route::get('metodo', [MetodosController::class, 'edit']) ->name('metodo.edit');
+
+Route::delete('metodo/{id}', [MetodosController::class, 'destroy']) ->name('metodo.destroy');

@@ -8,10 +8,14 @@ use Illuminate\Http\Request;
 
 class PerfilController extends Controller
 {
-    public function __invoke()
+    public function showUsuario()
     {
-        $usuario = Usuario::where('id', '1')->get();
-        $libros = Lectura::where('idUsuario', '1')->get();
-        return view('perfil', compact('usuario'), compact('libros'));
+        $usuario = Usuario::where('id', '4')->get();
+        $libros = Lectura::where('idUsuario', '4')->get();
+        if ($usuario[0]->admin == true) {
+            return view('perfilAdmin', compact('usuario'), compact('libros'));
+        } else {
+            return view('perfil', compact('usuario'), compact('libros'));
+        }
     }
 }

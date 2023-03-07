@@ -8,13 +8,13 @@
         <h1>Perfil</h1>
     </div>
     <div class="row container-fluid mb-5">
-        <div class="container-fluid d-flex flex-column align-items-center p-3 col-4">
+        <div class="container-fluid d-flex flex-column align-items-center p-3 col-3">
             <h3 class="mb-4">Datos del usuario</h3>
             <p>Usuario: {{$usuario[0]->nombre}}</p>
             <p>Email: {{$usuario[0]->email}}</p>
             <p>Clave de usuario: {{$usuario[0]->clave}}</p>
         </div>
-        <div class="container-fluid d-flex flex-column align-items-center p-3 col-7">
+        <div class="container-fluid d-flex flex-column align-items-center p-3 col-6">
             <h3 class="mb-4">Libros leídos</h3>
             <table class="table table-light table-hover text-center align-middle">
                 <thead>
@@ -34,6 +34,24 @@
                     @endforeach
                 </tbody>
             </table>
+        </div>
+        <div class="container-fluid d-flex flex-column align-items-center p-3 col-2">
+            <h3 class="mb-4">Administración</h3>
+            <form action="{{Route('admin.create')}}" method="get">
+                <button type="submit" class="btn btn-success mb-3">
+                    Agregar libro
+                </button>
+            </form>
+            <form action="{{Route('admin.update')}}" method="get">
+                <button type="submit" class="btn btn-primary mb-3">
+                    Modificar libro
+                </button>
+            </form>
+            <form action="{{Route('admin.delete')}}" method="get">
+                <button type="submit" class="btn btn-danger mb-3">
+                    Borrar libro
+                </button>
+            </form>
         </div>
     </div>
 </div>

@@ -15,7 +15,6 @@ class LibroSeeder extends Seeder
      */
     public function run()
     {
-
         // Accion vvvvvvvvvvvvvvvvvvvvvv
         $libro1 = new Libro();
         $libro1->nombre = "Crónicas de Nuncanoche 1";

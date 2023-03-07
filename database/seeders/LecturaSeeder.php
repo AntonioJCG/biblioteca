@@ -97,5 +97,30 @@ class LecturaSeeder extends Seeder
         $reserva10->generoLibro = "Drama";
         $reserva10->idUsuario = 3;
         $reserva10->save();
+
+        //Lector 4
+        $reserva11 = new Lectura();
+        $reserva11->idLibro = 8;
+        $reserva11->nombreLibro = "Gideon la novena";
+        $reserva11->autorLibro = "Tamsyn Muir";
+        $reserva11->generoLibro = "Ciencia Ficcion";
+        $reserva11->idUsuario = 4;
+        $reserva11->save();
+
+        $reserva12 = new Lectura();
+        $reserva12->idLibro = 10;
+        $reserva12->nombreLibro = "Soy leyenda";
+        $reserva12->autorLibro = "Richard Matheson";
+        $reserva12->generoLibro = "Accion";
+        $reserva12->idUsuario = 4;
+        $reserva12->save();
+
+        $reserva13 = new Lectura();
+        $reserva13->idLibro = 11;
+        $reserva13->nombreLibro = "Al final mueren los dos";
+        $reserva13->autorLibro = "Adam Silvera";
+        $reserva13->generoLibro = "Drama";
+        $reserva13->idUsuario = 4;
+        $reserva13->save();
     }
 }

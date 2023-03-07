@@ -19,9 +19,9 @@
             </div>
             <form action="" method="get">
                 <div class="mb-3">
-                    <label for="usuario" class="form-label">Usuario</label>
-                    <input type="text" class="form-control" id="usuario">
-                  </div>
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
                 <div class="mb-3">
                   <label for="password" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="password">
