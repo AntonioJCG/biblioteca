@@ -19,7 +19,7 @@ class LibroFactory extends Factory
     public function definition()
     {
         return [
-            'id'=> $this->faker->numerify(1),
+            'id'=> $this->faker->numerify(100),
             'nombre'=> $this->faker->name(),
             'autor'=> $this->faker->name(),
             'descripcion'=> $this->faker->paragraph(),
