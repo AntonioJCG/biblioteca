@@ -389,7 +389,7 @@ class LibroSeeder extends Seeder
         solo queda volver a quererte.»
         Cada verso de este libro habla de ti. Habla de la pérdida que todos hemos vivido y de la esperanza que nunca debemos perder. Habla de cómo siempre debemos sanar nuestras propias heridas para que florezca lo que parecía perdido.";
         $libro31->genero = "Poesia";
-        $libro31->publicacion = "2017-06-27";
+        $libro31->publicacion = "2015-06-28";
         $libro31->imagen = "../public/imgs/Nosquedaranmasatardeceres.jpg";
         $libro31->lecturas = 4;
         $libro31->save(); 
@@ -431,8 +431,8 @@ class LibroSeeder extends Seeder
         $libro35->genero = "Poesia";
         $libro35->publicacion = "2014-03-16";
         $libro35->imagen = "../public/imgs/Unamujerenlagarganta.jpg";
-        $libro35->lecturas = 4;
-        $libro35->save();
+        $libro35->lecturas = 5;
+        $libro35->save(); 
 
         $libro36 = new Libro();
         $libro36->nombre = "";
