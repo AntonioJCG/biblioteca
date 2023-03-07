@@ -48,19 +48,26 @@
     height: auto;
 }
 
-.banner-img > a > img {
+.banner-img>a>img {
     width: 100%;
     height: auto;
     max-width: 400px;
 }
 
-.banner-letras > h2 {
+.banner-letras>h2 {
     opacity: 1;
 }
 
 .titulos {
     font-weight: bold;
     font-size: 20px;
+}
+
+.barraVert {
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 100vh;
+    width: 1px;
 }
 
 @media screen and (max-width: 600px) {

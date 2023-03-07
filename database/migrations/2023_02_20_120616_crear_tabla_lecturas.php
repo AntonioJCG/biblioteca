@@ -16,6 +16,8 @@ return new class extends Migration
         Schema::create('lecturas', function (Blueprint $table) {
             $table->string('idLibro');
             $table->string('nombreLibro');
+            $table->string('autorLibro');
+            $table->string('generoLibro');
             $table->string('idUsuario');
             $table->date('updated_at');
             $table->date('created_at');
