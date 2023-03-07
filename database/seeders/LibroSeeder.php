@@ -62,7 +62,7 @@ class LibroSeeder extends Seeder
         $libro4->save();
 
         $libro5 = new Libro();
-        $libro5->nombre = "Viaje al centro de la tierra ";
+        $libro5->nombre = "Viaje al centro de la tierra";
         $libro5->autor = "Julio Verne";
         $libro5->descripcion = "El desciframiento de una inscripción escrita por un alquimista islandés del siglo XVI, Arne saknussemm, le revela al profesor de minerología Otto Lidenbrock el camino para llegar al centro de la Tierra. En compañía de su sobrino Axel y del guía hans, decide emprender una fascinante expedición que, a través del cráter y la chimenea de un volcán extinguido, les ha de conducir a las entrañas de la Tierra.";
         $libro5->genero = "Accion";
