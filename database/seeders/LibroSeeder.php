@@ -163,7 +163,7 @@ class LibroSeeder extends Seeder
         El editor";
         $libro13->genero = "Drama";
         $libro13->publicacion = "2014-05-24";
-        $libro13->imagen = "../public/imgs/Elniñoconelpilamaderayas.jpg";
+        $libro13->imagen = "../public/imgs/Elniñoconelpijamaderayas.jpg";
         $libro13->lecturas = 7;
         $libro13->save();
 
@@ -310,7 +310,7 @@ class LibroSeeder extends Seeder
         $libro25->descripcion = "¡MENUDO FOLLÓN! En el Cole de Magia están de celebración. Es el cumple de Simón, el dragón, y están preparando un superfiestón. Pero la bruja Burbuja, cocinando la tarta, ¡¡¡la lía un montón!!! 'Abracadabra, Cole de Magia' es una serie llena de humor y sorpresas mágicas con la que los niños aprenderán a leer de forma divertida.";
         $libro25->genero = "Infantil";
         $libro25->publicacion = "2017-06-27";
-        $libro25->imagen = "../public/imgs/Abracadbra.jpg";
+        $libro25->imagen = "../public/imgs/Abracadabra.jpg";
         $libro25->lecturas = 5;
         $libro25->save(); 
 
@@ -420,7 +420,7 @@ class LibroSeeder extends Seeder
         $libro34->descripcion = "Rompedoras en lo formal y emocionantes en lo temático, las Rimas nos muestran una de las voces líricas más depuradas y memorables del siglo XIX, cuya fama se ha perpetuado de generación en generación. Las 16 Leyendas presentes en este volumen confirman a Bécquer como el gran renovador del cuento español decimonónico. Su magistral tratamiento de lo fantástico en historias como «Maese Pérez, el organista», «El monte de las Ánimas» o «Los ojos verdes» hace de ellas auténticas obras maestras del relato gótico.";
         $libro34->genero = "Poesia";
         $libro34->publicacion = "2015-06-27";
-        $libro34->imagen = "../public/imgs/Rimasyleyendas.jpg";
+        $libro34->imagen = "../public/imgs/Rimasyleyendas.jpeg";
         $libro34->lecturas = 4;
         $libro34->save(); 
 
